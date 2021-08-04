@@ -1,0 +1,439 @@
+.titlogro {
+    color: rgb(100, 161, 201);
+    font-size: 50px;
+    transform: translate(15cm, 0.5cm);
+    padding-top: 1cm;
+    padding-bottom: 2cm;
+}
+
+.container {
+    max-width: 10000px;
+    margin: 0cm;
+    padding-left: 0cm;
+    padding-right: 0cm;
+}
+
+* {
+    margin: 0cm;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: auto;
+}
+
+body {
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.nav {
+    background-color: #292c31;
+    border: 2px black solid;
+    display: inline-block
+}
+
+.r1 {
+    display: grid;
+    justify-content: center;
+    font-size: 23px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    transform: translateY(1cm);
+    color: rgb(197, 49, 153);
+}
+
+.botones {
+    transform: translateX(2.5cm);
+}
+
+.form-group {
+    width: 40%;
+}
+
+.rowFlex {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.navFlex {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 18px;
+    font-size: 10px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    justify-content: center;
+}
+
+.navFlex li a {
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.reallyflex {
+    color: rgb(197, 49, 153);
+    letter-spacing: 0.3cm;
+    font-size: 100px;
+    transform: translate(2cm, 1.5cm);
+}
+
+.gangflex {
+    color: rgb(11, 119, 192);
+    letter-spacing: 0.3cm;
+    font-size: 100px;
+    transform: translateY(1.5cm);
+}
+
+.flexSection {
+    display: grid;
+    grid-template-columns: 400px 450px 400px;
+    grid-template-rows: 70px 70px 100px;
+    background-image: linear-gradient(to right, rgb(231, 201, 201), rgb(241, 63, 92));
+    border: 2px black solid;
+}
+
+.logo {
+    width: 230px;
+    transform: translate(2cm, 0.2cm);
+}
+
+.logoADN {
+    position: absolute;
+    transform: translateX(36.7cm);
+    width: 10%;
+}
+
+.logoADN2 {
+    position: absolute;
+    width: 10%;
+}
+
+.logoL {
+    position: absolute;
+    width: 7%;
+    transform: translateY(1cm);
+}
+
+.logoL2 {
+    position: absolute;
+    width: 7%;
+    transform: translate(37.5cm, 28.5cm);
+}
+
+.logoC {
+    position: absolute;
+    width: 5%;
+    transform: translate(15cm, -0.5cm);
+}
+
+.logoC2 {
+    position: absolute;
+    width: 5%;
+    transform: translate(23.8cm, -0.5cm);
+}
+
+.primera {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100px 150px 700px;
+    border: 1px black solid;
+}
+
+.segunda {
+    border: 1px black solid;
+}
+
+.gordo {
+    display: grid;
+    width: 1000px;
+    position: absolute;
+    left: 17%;
+    border: 1px rgb(11, 119, 192) solid;
+    border-radius: 6px;
+}
+
+.tituloprimera {
+    color: rgb(197, 49, 153);
+    font-size: 50px;
+    display: grid;
+    justify-content: center;
+    transform: translateY(1cm);
+}
+
+.titulosegunda {
+    color: rgb(11, 119, 192);
+    font-size: 50px;
+    display: grid;
+    justify-content: center;
+}
+
+.circulo {
+    border-radius: 10%;
+}
+
+.imagen2da {
+    display: flex;
+    justify-content: space-between;
+    padding: 1cm;
+}
+
+article div img {
+    border: 3px rgb(231, 201, 201) solid;
+}
+
+.table {
+    background-color: rgb(190, 158, 182);
+    margin-left: 1cm;
+    margin-right: 1cm;
+    width: 95%;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    width: 19%;
+    position: relative;
+    left: 5%;
+    font-size: 25px;
+    color: black;
+}
+
+ul li a:hover {
+    background-color: rgb(231, 201, 201);
+    color: rgb(11, 119, 192);
+    padding: 4px;
+}
+
+a {
+    text-decoration: none;
+    color: purple;
+}
+
+.artable {
+    padding-bottom: 3cm;
+}
+
+mark {
+    color: rgb(243, 243, 243);
+    background-color: rgb(209, 12, 166);
+}
+
+.contacto {
+    color: rgb(11, 119, 192);
+    font-weight: bolder;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    padding-top: 1cm;
+}
+
+.contacta {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+label {
+    font-size: 20px;
+}
+
+.form {
+    margin-block-start: 1cm;
+    padding-bottom: 1cm;
+    padding-left: 1.7cm;
+    color: white;
+}
+
+td {
+    border: 2px solid;
+    font-size: 22px;
+}
+
+th {
+    border: 2px solid;
+    font-size: 22px;
+}
+
+.instagram {
+    color: purple;
+}
+
+.enviar {
+    color: rgb(209, 12, 166);
+}
+
+.limpiar {
+    color: rgb(11, 119, 192);
+}
+
+.primer:hover {
+    background-color: yellow;
+    transition: 0.5s;
+}
+
+.Redes {
+    background-image: linear-gradient(to left, rgb(121, 197, 248), rgb(6, 114, 238));
+    color: rgb(231, 201, 201);
+    font-size: 25px;
+    letter-spacing: 0.1cm;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 0.5cm;
+    margin: 1cm;
+}
+
+.ig {
+    color: rgb(231, 201, 201);
+    background-color: rgb(100, 161, 201);
+    font-size: 30px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    margin: 1cm;
+    border: black;
+}
+
+.ig:hover {
+    transition: 0.5s;
+    color: rgb(100, 161, 201);
+    background-color: rgb(231, 201, 201);
+}
+
+.tw {
+    color: rgb(100, 161, 201);
+    background-color: rgb(231, 201, 201);
+    font-size: 30px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    margin: 1cm;
+    border: black;
+}
+
+.tw:hover {
+    transition: 0.5s;
+    color: rgb(231, 201, 201);
+    background-color: rgb(100, 161, 201);
+}
+
+.pie {
+    display: grid;
+    grid-template-rows: 33% 33% 33%;
+    grid-template-columns: 33% 33% 33%;
+    align-content: space-around;
+}
+
+footer {
+    border: 1px solid black;
+    background-color: grey;
+}
+
+.derechos {
+    margin: 1cm;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.derechos:hover {
+    transition: 0.5s;
+    color: white;
+}
+
+.form-group {
+    margin-top: 2rem;
+}
+
+.carrusel {
+    transform: translateX(12cm);
+    width: 35%;
+    padding-bottom: 1cm;
+    border: blue;
+}
+
+.tit-adn {
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+    color: rgb(6, 114, 238);
+    font-size: 50px;
+    transform: translateX(11cm);
+}
+
+.leyendaC {
+    color: rgb(8, 66, 255);
+    font-size: 30px;
+}
+
+.descrip {
+    color: white;
+    font-size: 20px;
+}
+
+.mainclass {
+    background-color: #1e202f;
+}
+
+.contenedor {
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.tarjeta {
+    background-color: #e784eb;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.tarjeta__img {
+    width: 400px;
+    height: 380px;
+    margin-right: 30px;
+    border-radius: 2cm;
+}
+
+.tarjeta__titulo {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    padding-top: 1cm;
+}
+
+.tarjeta__parrafo {
+    line-height: 20px;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.boton {
+    height: 60px;
+    padding: 20px;
+    background-color: #1e202f;
+    color: rgb(89, 92, 226);
+    display: inline-block;
+    text-decoration: none;
+}
+
+.fondocontacto {
+    background-color: #1e202f;
+}
+
+.fondologros {
+    background-color: #1e202f;
+}
+
+.titulotienda {
+    color: white;
+    display: flex;
+    transform: translate(5cm, 1cm)
+}
+
+.tituloLD {
+    color: white;
+    transform: translateX(26cm);
+}
+
+.ADNDN {
+    color: #1e202f;
+    display: flex;
+    justify-content: center;
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+    font-size: 60px;
+}
